@@ -43,7 +43,7 @@
           [
             {
               "name": "Stake { MON }",
-              "url": "/blog",
+              "url": "/integrations",
               "description": "Read our latest articles",
               "icon": "HiOutlinePencil"
             },
