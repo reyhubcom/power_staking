@@ -1,35 +1,23 @@
 ---
 import Base from "@/layouts/Base.astro";
-import MainContainer from "@/components/MainContainer.astro";
-import PageHeader from "@/partials/PageHeader.astro";
+import PostSingle from "@/layouts/PostSingle.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
-import { render } from "astro:content";
 
 export async function getStaticPaths() {
-  const integrations = await getSinglePage("integrations");
-  return integrations.map((integration: any) => ({
-    params: { single: integration.id },
-    props: { integration },
+  const posts = await getSinglePage("blog");
+  return posts.map((post: any) => ({
+    params: { single: post.id },
+    props: { post },
   }));
 }
 
-const { integration } = Astro.props;
+const { post } = Astro.props;
 
-if (integration.data.draft) return Astro.redirect("/404");
+if (post.data.draft) return Astro.redirect("/404");
 
-const { Content } = await render(integration);
-const { title, meta_title, description, image, page_header } = integration.data;
+const { title, meta_title, description, image } = post.data;
 ---
 
 <Base title={title} meta_title={meta_title} description={description} image={image}>
-  {page_header && <PageHeader page_header={page_header} />}
-  <section>
-    <MainContainer>
-      <div class="lg:w-4/5 mx-auto container-padding-y container-padding-x">
-        <div class="content">
-          <Content />
-        </div>
-      </div>
-    </MainContainer>
-  </section>
+  <PostSingle post={post} />
 </Base>
