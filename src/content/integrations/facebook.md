@@ -9,7 +9,7 @@ icon: "/images/integrations/Facebook.svg"
 page_header:
   badge: "Integration Details"
   title: |
-    Facebook
+    GMonads
   subtitle: Automate image generation in your n8n workflows with PowerAI
   button_primary:
     enable: true
