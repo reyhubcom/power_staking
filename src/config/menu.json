@@ -9,11 +9,11 @@
       "url": "/about"
     },
     {
-      "name": "Features",
-      "url": "/features"
+      "name": "Protocols",
+      "url": "/integrations"
     },
     {
-      "name": "Pages",
+      "name": "Staking",
       "url": "",
       "hasChildren": true,
       "mega_menu": {
