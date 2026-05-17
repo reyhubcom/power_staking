@@ -1,22 +1,7 @@
 ---
-title: "Integration"
-meta_title: "Integration - Power AI"
-description: "Discover our powerful integration capabilities and seamless connections"
+title: "Blog Posts"
+meta_title: ""
+description: "A collection of articles and insights on AI, machine learning, and data science. Explore our latest blog posts to stay updated on industry trends, best practices, and innovative solutions."
 image: ""
 draft: false
-page_header:
-  badge: "Monad Staking"
-  title: |
-    Seamless Integration for
-    <br/>
-    <mark>Modern Workflows</mark>
-  subtitle: "Connect PowerAI with your favorite tools and automate your workflow effortlessly."
-  button_dark:
-    enable: true
-    label: "GitHub Repository"
-    link: "https://github.com/sitepins/powerai-astro"
-  button_primary:
-    enable: true
-    label: "Edit with Sitepins"
-    link: "https://app.sitepins.com/new/clone?name=PoweraiAstro&repository=https://github.com/sitepins/powerai-astro&aff=poweraiastro"
 ---
