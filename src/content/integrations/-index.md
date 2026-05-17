@@ -5,7 +5,7 @@ description: "Discover our powerful integration capabilities and seamless connec
 image: ""
 draft: false
 page_header:
-  badge: "Integration"
+  badge: "Monad Staking"
   title: |
     Seamless Integration for
     <br/>
