@@ -33,25 +33,7 @@ const blogCollection = defineCollection({
     draft: z.boolean().optional(),
   }),
 });
-// MON collection
-const blogCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/mon" }),
-  schema: z.object({
-    title: z.string(),
-    meta_title: z.string().optional(),
-    description: z.string().optional(),
-    date: z.coerce.date().optional(),
-    image: z.string().optional(),
-    category: z.string().optional(),
-    featured: z.boolean().optional(),
-    author: z.object({
-      name: z.string(),
-      avatar: z.string().optional(),
-      designation: z.string().optional(),
-    }).optional(),
-    draft: z.boolean().optional(),
-  }),
-});
+
 
 // Careers collection
 const careersCollection = defineCollection({
