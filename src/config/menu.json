@@ -22,10 +22,10 @@
         "mega_menu_groups": [
           [
             {
-              "name": "Pricing",
-              "url": "/pricing",
+              "name": "Bitcoin Staking",
+              "url": "/blog",
               "description": "View our pricing plans",
-              "icon": "HiOutlineTag"
+              "icon": "HiOutlineUserGroup"
             },
             {
               "name": "Changelog",
