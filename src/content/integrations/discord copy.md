@@ -5,7 +5,7 @@ description: "Discover our powerful integration capabilities and seamless connec
 image: ""
 draft: false
 category: "Communication"
-icon: "/images/integrations/Discord.svg"
+icon: "/images/BTC/Discord.svg"
 page_header:
   badge: "Integration Details"
   title: |
