@@ -80,6 +80,11 @@ const integrationsCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/integrations" }),
   schema: z.object({}).catchall(z.any()),
 });
+// Integrations collection
+const integrationsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/mon" }),
+  schema: z.object({}).catchall(z.any()),
+});
 
 // Pages collection
 const pagesCollection = defineCollection({
