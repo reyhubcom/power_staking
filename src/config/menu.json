@@ -43,7 +43,7 @@
           [
             {
               "name": "Stake { MON }",
-              "url": "/MON",
+              "url": "/content/mon",
               "description": "12,76 % APY",
               "icon": "HiOutlinePencil"
             },
